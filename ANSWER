@@ -1,0 +1,31 @@
+*Installing Python:*
+
+1. I follow the link to python website to install it
+2. I Select the desired version (e.g., Python 3.x) and click on the download link.
+3.I Run the downloaded installer (python-3.x-x-x.exe) and follow the prompts.
+4.I Selected “Add Python to PATH” during the installation process.
+5. I Choose the installation location (e.g., C:\Python3x) and click “Install”.
+6.I Waited for the installation to complete.
+7.  I Opened a command prompt or terminal and type “python –version” to verify the installation.
+
+*Installing MySQL:*
+
+1.i went to the MySQL download page and click on the appropriate link for Windows.
+2. I Selected the desired version (e.g., MySQL Community Server) and click on the download link.
+3. I Run the downloaded installer (mysql-xxx-x-x.exe) and follow the prompts.
+4.I Choose the installation type (e.g., Developer Default) and click “Next”.
+5.I Selected the installation location (e.g., C:\Program Files\MySQL\MySQL Server x.x) and click “Next”.
+6.I Set the root password and click “Next”.
+7. I Configured the server settings (e.g., port number, character set) and click “Next”.
+8. I Click “Install” to begin the installation process.
+9.I Waited for the installation to complete.
+10.I Opened a command prompt or terminal and type “mysql -u root -p[password]” to verify the installation.
+
+*Configuring MySQL for Python:*
+
+1.I Install the MySQL Connector for Python (mysql-connector-python) using pip: `pip install mysql-connector-python`
+2.I Imported the MySQL connector in your Python script: `import mysql.connector`
+3. I Established a connection to the MySQL server: `cnx = mysql.connector.connect(user=’root’, password=’[password]’, host=’127.0.0.1’, database=’[database_name]’)`
+
+Note:I Replaced the `[password]` and `[database_name]` with your actual MySQL password and database name.
+issues: i face a lot of setback when using git bash for linking
